@@ -12,6 +12,16 @@ const state = {
 document.addEventListener('DOMContentLoaded', async () => {
     await loadAllPlays();
     setupEventListeners();
+
+    // Auto-load Romeo and Juliet to show the site is working
+    setTimeout(() => {
+        const romeoCheckbox = document.getElementById('play-romeo_juliet');
+        if (romeoCheckbox && state.plays['romeo_juliet']) {
+            romeoCheckbox.checked = true;
+            state.selectedPlays.add('romeo_juliet');
+            displaySinglePlay('romeo_juliet');
+        }
+    }, 500);
 });
 
 // Load all play data from JSON files
