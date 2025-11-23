@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakespeare Distant Reading</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Shakespeare Distant Reading Analysis</h1>
+            <p class="subtitle">Computational Literary Analysis of Five Shakespeare Plays</p>
+        </header>
+
+        <!-- Main Layout -->
+        <div class="main-layout">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <h2>Select Plays</h2>
+                <div class="play-list">
+                    <div class="play-item" data-play-id="romeo_juliet">
+                        <input type="checkbox" id="play-romeo_juliet" class="play-checkbox">
+                        <label for="play-romeo_juliet">Romeo and Juliet</label>
+                        <span class="genre tragedy">Tragedy</span>
+                    </div>
+                    <div class="play-item" data-play-id="hamlet">
+                        <input type="checkbox" id="play-hamlet" class="play-checkbox">
+                        <label for="play-hamlet">Hamlet</label>
+                        <span class="genre tragedy">Tragedy</span>
+                    </div>
+                    <div class="play-item" data-play-id="macbeth">
+                        <input type="checkbox" id="play-macbeth" class="play-checkbox">
+                        <label for="play-macbeth">Macbeth</label>
+                        <span class="genre tragedy">Tragedy</span>
+                    </div>
+                    <div class="play-item" data-play-id="midsummer">
+                        <input type="checkbox" id="play-midsummer" class="play-checkbox">
+                        <label for="play-midsummer">A Midsummer Night's Dream</label>
+                        <span class="genre comedy">Comedy</span>
+                    </div>
+                    <div class="play-item" data-play-id="much_ado">
+                        <input type="checkbox" id="play-much_ado" class="play-checkbox">
+                        <label for="play-much_ado">Much Ado about Nothing</label>
+                        <span class="genre comedy">Comedy</span>
+                    </div>
+                </div>
+
+                <div class="view-controls">
+                    <button id="btn-single-view" class="view-btn active">Single View</button>
+                    <button id="btn-compare-view" class="view-btn">Compare</button>
+                </div>
+            </aside>
+
+            <!-- Main Content Area -->
+            <main class="content">
+                <!-- Single Play View -->
+                <div id="single-view" class="view-container active">
+                    <div id="single-play-content">
+                        <div class="welcome-message">
+                            <h2>Welcome to Shakespeare Distant Reading</h2>
+                            <p>Select a play from the sidebar to view its analysis, or select multiple plays to compare them.</p>
+                            <div class="features">
+                                <div class="feature-card">
+                                    <h3>📊 Sentiment Analysis</h3>
+                                    <p>Explore the emotional tone and sentiment patterns in each play</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h3>☁️ Word Clouds</h3>
+                                    <p>Visualize the most frequent words and distinctive vocabulary</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h3>📈 Stylometric Analysis</h3>
+                                    <p>Examine readability, lexical diversity, and writing style metrics</p>
+                                </div>
+                                <div class="feature-card">
+                                    <h3>🔍 Comparative Analysis</h3>
+                                    <p>Compare multiple plays side-by-side to discover patterns</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Play Detail Template (hidden, will be populated) -->
+                        <div id="play-detail" class="play-detail" style="display: none;">
+                            <h2 id="play-title"></h2>
+                            <div class="metadata">
+                                <span id="play-genre" class="genre"></span>
+                                <span id="play-stats" class="stats"></span>
+                            </div>
+
+                            <!-- Tabs -->
+                            <div class="tabs">
+                                <button class="tab-btn active" data-tab="overview">Overview</button>
+                                <button class="tab-btn" data-tab="wordcloud">Word Cloud</button>
+                                <button class="tab-btn" data-tab="sentiment">Sentiment</button>
+                                <button class="tab-btn" data-tab="style">Style Analysis</button>
+                            </div>
+
+                            <!-- Tab Content -->
+                            <div id="tab-overview" class="tab-content active">
+                                <div class="overview-grid">
+                                    <div class="stat-card">
+                                        <h4>Total Words</h4>
+                                        <p id="stat-total-words" class="stat-value">-</p>
+                                    </div>
+                                    <div class="stat-card">
+                                        <h4>Unique Words</h4>
+                                        <p id="stat-unique-words" class="stat-value">-</p>
+                                    </div>
+                                    <div class="stat-card">
+                                        <h4>Lexical Diversity</h4>
+                                        <p id="stat-lexical-diversity" class="stat-value">-</p>
+                                    </div>
+                                    <div class="stat-card">
+                                        <h4>Sentiment</h4>
+                                        <p id="stat-sentiment" class="stat-value">-</p>
+                                    </div>
+                                </div>
+
+                                <div class="section">
+                                    <h3>Top 20 Most Common Words</h3>
+                                    <div id="top-words-chart" class="chart"></div>
+                                </div>
+
+                                <div class="section">
+                                    <h3>Distinctive Words (TF-IDF)</h3>
+                                    <div id="distinctive-words" class="word-tags"></div>
+                                </div>
+                            </div>
+
+                            <div id="tab-wordcloud" class="tab-content">
+                                <div class="section">
+                                    <img id="wordcloud-image" src="" alt="Word Cloud" class="wordcloud-img">
+                                </div>
+                                <div class="wordcloud-controls">
+                                    <h4>Dynamic Word Cloud Generator</h4>
+                                    <label>Max Words: <input type="range" id="wc-max-words" min="20" max="200" value="100"></label>
+                                    <span id="wc-max-words-value">100</span>
+                                    <button id="btn-regenerate-wordcloud">Regenerate</button>
+                                </div>
+                                <canvas id="dynamic-wordcloud" width="800" height="400"></canvas>
+                            </div>
+
+                            <div id="tab-sentiment" class="tab-content">
+                                <div class="sentiment-overview">
+                                    <div class="sentiment-scores">
+                                        <h3>Overall Sentiment Scores</h3>
+                                        <div id="sentiment-bars" class="sentiment-bars"></div>
+                                    </div>
+                                    <div class="sentiment-summary">
+                                        <h3>Summary</h3>
+                                        <p id="sentiment-summary-text"></p>
+                                        <div id="compound-score" class="compound-score"></div>
+                                    </div>
+                                </div>
+
+                                <div class="section" id="act-sentiment-section" style="display: none;">
+                                    <h3>Sentiment by Act</h3>
+                                    <div id="act-sentiment-chart"></div>
+                                </div>
+                            </div>
+
+                            <div id="tab-style" class="tab-content">
+                                <div class="section">
+                                    <h3>Readability Scores</h3>
+                                    <div id="readability-scores" class="metric-grid"></div>
+                                </div>
+
+                                <div class="section">
+                                    <h3>Vocabulary Richness</h3>
+                                    <div id="vocabulary-richness" class="metric-grid"></div>
+                                </div>
+
+                                <div class="section">
+                                    <h3>Writing Style Metrics</h3>
+                                    <div id="style-metrics" class="metric-grid"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compare View -->
+                <div id="compare-view" class="view-container">
+                    <div id="compare-content">
+                        <div class="compare-placeholder">
+                            <h2>Comparative Analysis</h2>
+                            <p>Select 2 or more plays from the sidebar to compare them.</p>
+                        </div>
+
+                        <div id="comparison-results" style="display: none;">
+                            <h2>Comparing <span id="compare-play-count"></span> Plays</h2>
+
+                            <div class="section">
+                                <h3>Sentiment Comparison</h3>
+                                <div id="compare-sentiment-chart" class="comparison-chart"></div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Stylometric Comparison</h3>
+                                <div id="compare-style-table" class="comparison-table"></div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Vocabulary Overlap</h3>
+                                <div id="vocab-overlap" class="vocab-overlap"></div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Word Clouds Comparison</h3>
+                                <div id="compare-wordclouds" class="wordcloud-grid"></div>
+                            </div>
+
+                            <div class="section">
+                                <h3>Top Words Comparison</h3>
+                                <div id="compare-top-words" class="comparison-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="wordcloud.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
