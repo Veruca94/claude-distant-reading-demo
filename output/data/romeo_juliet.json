@@ -1,0 +1,1376 @@
+{
+  "metadata": {
+    "id": "romeo_juliet",
+    "title": "Romeo and Juliet",
+    "genre": "Tragedy",
+    "source_file": "pg1513.txt"
+  },
+  "statistics": {
+    "total_words": 26364,
+    "words_without_stopwords": 13995,
+    "unique_words": 3475,
+    "sentences": 3046
+  },
+  "bag_of_words": {
+    "top_words": [
+      [
+        "romeo",
+        313
+      ],
+      [
+        "thou",
+        278
+      ],
+      [
+        "juliet",
+        188
+      ],
+      [
+        "thy",
+        170
+      ],
+      [
+        "capulet",
+        163
+      ],
+      [
+        "love",
+        148
+      ],
+      [
+        "nurse",
+        143
+      ],
+      [
+        "thee",
+        138
+      ],
+      [
+        "lady",
+        117
+      ],
+      [
+        "shall",
+        110
+      ],
+      [
+        "friar",
+        104
+      ],
+      [
+        "come",
+        94
+      ],
+      [
+        "mercutio",
+        88
+      ],
+      [
+        "lawrence",
+        81
+      ],
+      [
+        "good",
+        80
+      ],
+      [
+        "tybalt",
+        79
+      ],
+      [
+        "benvolio",
+        77
+      ],
+      [
+        "enter",
+        75
+      ],
+      [
+        "go",
+        75
+      ],
+      [
+        "night",
+        73
+      ],
+      [
+        "death",
+        72
+      ],
+      [
+        "man",
+        71
+      ],
+      [
+        "hath",
+        64
+      ],
+      [
+        "paris",
+        60
+      ],
+      [
+        "one",
+        60
+      ],
+      [
+        "well",
+        58
+      ],
+      [
+        "sir",
+        57
+      ],
+      [
+        "art",
+        55
+      ],
+      [
+        "say",
+        55
+      ],
+      [
+        "would",
+        55
+      ],
+      [
+        "scene",
+        51
+      ],
+      [
+        "let",
+        50
+      ],
+      [
+        "may",
+        48
+      ],
+      [
+        "day",
+        48
+      ],
+      [
+        "dead",
+        48
+      ],
+      [
+        "doth",
+        47
+      ],
+      [
+        "give",
+        47
+      ],
+      [
+        "yet",
+        47
+      ],
+      [
+        "montague",
+        46
+      ],
+      [
+        "fair",
+        44
+      ],
+      [
+        "tell",
+        44
+      ],
+      [
+        "prince",
+        43
+      ],
+      [
+        "upon",
+        42
+      ],
+      [
+        "st",
+        41
+      ],
+      [
+        "take",
+        40
+      ],
+      [
+        "tis",
+        40
+      ],
+      [
+        "must",
+        40
+      ],
+      [
+        "make",
+        40
+      ],
+      [
+        "know",
+        38
+      ],
+      [
+        "like",
+        38
+      ]
+    ],
+    "vocabulary_stats": {
+      "total_words": 13995,
+      "unique_words": 3352,
+      "hapax_legomena": 1872,
+      "type_token_ratio": 0.23951411218292248
+    },
+    "distinctive_words": [
+      [
+        "romeo",
+        0.6274425925952518
+      ],
+      [
+        "juliet",
+        0.3768664773415569
+      ],
+      [
+        "capulet",
+        0.32675125429081797
+      ],
+      [
+        "thou",
+        0.26554751601016185
+      ],
+      [
+        "nurse",
+        0.2312747374436484
+      ],
+      [
+        "friar",
+        0.16819980904992612
+      ],
+      [
+        "thy",
+        0.16238517166089034
+      ],
+      [
+        "love",
+        0.14137062003418688
+      ],
+      [
+        "thee",
+        0.13181855111295804
+      ],
+      [
+        "lady",
+        0.11175920637837747
+      ],
+      [
+        "shall",
+        0.10507275813351727
+      ],
+      [
+        "come",
+        0.08978944785955112
+      ],
+      [
+        "good",
+        0.07641655136983075
+      ],
+      [
+        "enter",
+        0.07164051690921633
+      ],
+      [
+        "go",
+        0.07164051690921633
+      ],
+      [
+        "night",
+        0.06973010312497055
+      ],
+      [
+        "death",
+        0.06877489623284767
+      ],
+      [
+        "man",
+        0.06781968934072478
+      ],
+      [
+        "hath",
+        0.0611332410958646
+      ],
+      [
+        "one",
+        0.05731241352737306
+      ],
+      [
+        "well",
+        0.05540199974312729
+      ],
+      [
+        "sir",
+        0.05444679285100441
+      ],
+      [
+        "art",
+        0.052536379066758634
+      ],
+      [
+        "say",
+        0.052536379066758634
+      ],
+      [
+        "would",
+        0.052536379066758634
+      ],
+      [
+        "scene",
+        0.0487155514982671
+      ],
+      [
+        "prince",
+        0.04856255308946688
+      ],
+      [
+        "let",
+        0.047760344606144214
+      ],
+      [
+        "day",
+        0.04584993082189845
+      ],
+      [
+        "dead",
+        0.04584993082189845
+      ]
+    ]
+  },
+  "sentiment": {
+    "overall_scores": {
+      "neg": 0.128,
+      "neu": 0.714,
+      "pos": 0.158,
+      "compound": 1.0
+    },
+    "summary": "Positive",
+    "by_act": [
+      {
+        "act_number": 1,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 2,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 3,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 4,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 5,
+        "scores": {
+          "neg": 0.056,
+          "neu": 0.893,
+          "pos": 0.051,
+          "compound": -0.1154
+        }
+      },
+      {
+        "act_number": 6,
+        "scores": {
+          "neg": 0.106,
+          "neu": 0.725,
+          "pos": 0.17,
+          "compound": 0.9999
+        }
+      },
+      {
+        "act_number": 7,
+        "scores": {
+          "neg": 0.087,
+          "neu": 0.712,
+          "pos": 0.201,
+          "compound": 1.0
+        }
+      },
+      {
+        "act_number": 8,
+        "scores": {
+          "neg": 0.151,
+          "neu": 0.696,
+          "pos": 0.153,
+          "compound": 0.955
+        }
+      },
+      {
+        "act_number": 9,
+        "scores": {
+          "neg": 0.139,
+          "neu": 0.724,
+          "pos": 0.137,
+          "compound": -0.9694
+        }
+      },
+      {
+        "act_number": 10,
+        "scores": {
+          "neg": 0.178,
+          "neu": 0.725,
+          "pos": 0.097,
+          "compound": -0.9999
+        }
+      }
+    ],
+    "sentence_sentiments": [
+      {
+        "sentence": "THE TRAGEDY OF ROMEO AND JULIET\n\nby William Shakespeare\n\n\n\n\nContents\n\nTHE PROLOGUE.",
+        "scores": {
+          "neg": 0.318,
+          "neu": 0.682,
+          "pos": 0.0,
+          "compound": -0.7297
+        }
+      },
+      {
+        "sentence": "ACT I\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A public place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Street.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Room in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Street.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. A Hall in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT II\nCHORUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An open place adjoining Capulet\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Capulet\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Friar Lawrence\u2019s Cell.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Street.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. Capulet\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VI.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Friar Lawrence\u2019s Cell.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT III\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A public Place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Friar Lawrence\u2019s cell.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. An open Gallery to Juliet\u2019s Chamber, overlooking the Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT IV\nScene I. Friar Lawrence\u2019s Cell.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Hall in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Juliet\u2019s Chamber.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Hall in Capulet\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. Juliet\u2019s Chamber; Juliet on the bed.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT V\nScene I. Mantua.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Street.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Friar Lawrence\u2019s Cell.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A churchyard; in it a Monument belonging to the Capulets.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Dramatis Person\u00e6\n\nESCALUS, Prince of Verona.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MERCUTIO, kinsman to the Prince, and friend to Romeo.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.714,
+          "pos": 0.286,
+          "compound": 0.4939
+        }
+      },
+      {
+        "sentence": "PARIS, a young Nobleman, kinsman to the Prince.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Page to Paris.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MONTAGUE, head of a Veronese family at feud with the Capulets.",
+        "scores": {
+          "neg": 0.194,
+          "neu": 0.806,
+          "pos": 0.0,
+          "compound": -0.34
+        }
+      },
+      {
+        "sentence": "LADY MONTAGUE, wife to Montague.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ROMEO, son to Montague.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BENVOLIO, nephew to Montague, and friend to Romeo.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.686,
+          "pos": 0.314,
+          "compound": 0.4939
+        }
+      },
+      {
+        "sentence": "ABRAM, servant to Montague.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BALTHASAR, servant to Romeo.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CAPULET, head of a Veronese family at feud with the Montagues.",
+        "scores": {
+          "neg": 0.194,
+          "neu": 0.806,
+          "pos": 0.0,
+          "compound": -0.34
+        }
+      },
+      {
+        "sentence": "LADY CAPULET, wife to Capulet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "JULIET, daughter to Capulet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "TYBALT, nephew to Lady Capulet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CAPULET\u2019S COUSIN, an old man.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "NURSE to Juliet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "PETER, servant to Juliet\u2019s Nurse.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SAMPSON, servant to Capulet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "GREGORY, servant to Capulet.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Servants.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRIAR LAWRENCE, a Franciscan.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRIAR JOHN, of the same Order.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An Apothecary.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CHORUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Three Musicians.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An Officer.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Citizens of Verona; several Men and Women, relations to both houses;\nMaskers, Guards, Watchmen and A",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SCENE.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "During the greater part of the Play in Verona; once, in the\nFifth Act, at Mantua.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.741,
+          "pos": 0.259,
+          "compound": 0.5994
+        }
+      },
+      {
+        "sentence": "THE PROLOGUE\n\n\n Enter Chorus.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CHORUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Two households, both alike in dignity,\nIn fair Verona, where we lay our scene,\nFrom ancient grudge b",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.839,
+          "pos": 0.161,
+          "compound": 0.6124
+        }
+      },
+      {
+        "sentence": "From forth the fatal loins of these two foes\nA pair of star-cross\u2019d lovers take their life;\nWhose mi",
+        "scores": {
+          "neg": 0.315,
+          "neu": 0.6,
+          "pos": 0.085,
+          "compound": -0.8481
+        }
+      },
+      {
+        "sentence": "The fearful passage of their death-mark\u2019d love,\nAnd the continuance of their parents\u2019 rage,\nWhich, b",
+        "scores": {
+          "neg": 0.117,
+          "neu": 0.835,
+          "pos": 0.048,
+          "compound": -0.4019
+        }
+      },
+      {
+        "sentence": "[_Exit._]\n\n\n\n\nACT I\n\nSCENE I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A public place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Enter Sampson and Gregory armed with swords and bucklers.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SAMPSON.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Gregory, on my word, we\u2019ll not carry coals.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "GREGORY.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "No, for then we should be colliers.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SAMPSON.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I mean, if we be in choler, we\u2019ll draw.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "GREGORY.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Ay, while you live, draw your neck out o\u2019 the collar.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SAMPSON.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I strike quickly, being moved.",
+        "scores": {
+          "neg": 0.273,
+          "neu": 0.727,
+          "pos": 0.0,
+          "compound": -0.128
+        }
+      },
+      {
+        "sentence": "GREGORY.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "But thou art not quickly moved to strike.",
+        "scores": {
+          "neg": 0.2,
+          "neu": 0.8,
+          "pos": 0.0,
+          "compound": -0.1901
+        }
+      },
+      {
+        "sentence": "SAMPSON.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A dog of the house of Montague moves me.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "GREGORY.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "To move is to stir; and to be valiant is to stand: therefore, if thou\nart moved, thou runn\u2019st away.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SAMPSON.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A dog of that house shall move me to stand.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      }
+    ]
+  },
+  "style": {
+    "lexical_diversity": 0.13180852677894098,
+    "vocabulary_richness": {
+      "total_words": 26364,
+      "unique_words": 3475,
+      "hapax_legomena": 1876,
+      "hapax_percentage": 53.985611510791365
+    },
+    "readability_scores": {
+      "flesch_reading_ease": 92.63,
+      "flesch_kincaid_grade": 3.4,
+      "gunning_fog": 5.61,
+      "smog_index": 6.9,
+      "automated_readability_index": 5.8,
+      "coleman_liau_index": 5.84,
+      "dale_chall_readability": 5.83
+    },
+    "average_word_length": 3.9753072371415565,
+    "sentence_statistics": {
+      "avg_sentence_length_words": 8.52199606040709,
+      "avg_sentence_length_chars": 45.39198949441891
+    }
+  },
+  "wordcloud": {
+    "filename": "romeo_juliet_wordcloud.png",
+    "path": "output/wordclouds/romeo_juliet_wordcloud.png"
+  }
+}
