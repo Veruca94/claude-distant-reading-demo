@@ -1,0 +1,1376 @@
+{
+  "metadata": {
+    "id": "hamlet",
+    "title": "Hamlet",
+    "genre": "Tragedy",
+    "source_file": "pg1524.txt"
+  },
+  "statistics": {
+    "total_words": 32317,
+    "words_without_stopwords": 16003,
+    "unique_words": 4463,
+    "sentences": 3613
+  },
+  "bag_of_words": {
+    "top_words": [
+      [
+        "hamlet",
+        463
+      ],
+      [
+        "lord",
+        221
+      ],
+      [
+        "king",
+        201
+      ],
+      [
+        "horatio",
+        152
+      ],
+      [
+        "queen",
+        119
+      ],
+      [
+        "shall",
+        114
+      ],
+      [
+        "polonius",
+        113
+      ],
+      [
+        "good",
+        107
+      ],
+      [
+        "come",
+        105
+      ],
+      [
+        "laertes",
+        104
+      ],
+      [
+        "let",
+        104
+      ],
+      [
+        "thou",
+        104
+      ],
+      [
+        "thy",
+        86
+      ],
+      [
+        "ophelia",
+        85
+      ],
+      [
+        "would",
+        81
+      ],
+      [
+        "like",
+        80
+      ],
+      [
+        "rosencrantz",
+        78
+      ],
+      [
+        "know",
+        78
+      ],
+      [
+        "well",
+        75
+      ],
+      [
+        "tis",
+        74
+      ],
+      [
+        "sir",
+        73
+      ],
+      [
+        "us",
+        71
+      ],
+      [
+        "may",
+        71
+      ],
+      [
+        "father",
+        70
+      ],
+      [
+        "go",
+        70
+      ],
+      [
+        "enter",
+        67
+      ],
+      [
+        "love",
+        65
+      ],
+      [
+        "hath",
+        64
+      ],
+      [
+        "speak",
+        63
+      ],
+      [
+        "first",
+        62
+      ],
+      [
+        "give",
+        59
+      ],
+      [
+        "must",
+        59
+      ],
+      [
+        "guildenstern",
+        58
+      ],
+      [
+        "thee",
+        58
+      ],
+      [
+        "upon",
+        57
+      ],
+      [
+        "man",
+        57
+      ],
+      [
+        "th",
+        56
+      ],
+      [
+        "make",
+        55
+      ],
+      [
+        "say",
+        55
+      ],
+      [
+        "much",
+        50
+      ],
+      [
+        "marcellus",
+        48
+      ],
+      [
+        "think",
+        48
+      ],
+      [
+        "see",
+        47
+      ],
+      [
+        "one",
+        46
+      ],
+      [
+        "clown",
+        46
+      ],
+      [
+        "mother",
+        45
+      ],
+      [
+        "scene",
+        44
+      ],
+      [
+        "heaven",
+        44
+      ],
+      [
+        "time",
+        44
+      ],
+      [
+        "tell",
+        42
+      ]
+    ],
+    "vocabulary_stats": {
+      "total_words": 16003,
+      "unique_words": 4336,
+      "hapax_legomena": 2584,
+      "type_token_ratio": 0.2709491970255577
+    },
+    "distinctive_words": [
+      [
+        "hamlet",
+        0.8000313681962294
+      ],
+      [
+        "horatio",
+        0.2626452871832114
+      ],
+      [
+        "polonius",
+        0.19525603586646637
+      ],
+      [
+        "lord",
+        0.1819642561850137
+      ],
+      [
+        "laertes",
+        0.17970467017798672
+      ],
+      [
+        "king",
+        0.16549690268410747
+      ],
+      [
+        "queen",
+        0.11584475681343351
+      ],
+      [
+        "shall",
+        0.09386391495516544
+      ],
+      [
+        "good",
+        0.08810034122984826
+      ],
+      [
+        "come",
+        0.08645360587975763
+      ],
+      [
+        "let",
+        0.08563023820471233
+      ],
+      [
+        "thou",
+        0.08563023820471233
+      ],
+      [
+        "thy",
+        0.07080962005389674
+      ],
+      [
+        "would",
+        0.06669278167867018
+      ],
+      [
+        "like",
+        0.06586941400362487
+      ],
+      [
+        "know",
+        0.06422267865353425
+      ],
+      [
+        "well",
+        0.06175257562839831
+      ],
+      [
+        "tis",
+        0.060929207953353
+      ],
+      [
+        "sir",
+        0.06010584027830769
+      ],
+      [
+        "may",
+        0.05845910492821707
+      ],
+      [
+        "us",
+        0.05845910492821707
+      ],
+      [
+        "father",
+        0.05763573725317176
+      ],
+      [
+        "go",
+        0.05763573725317176
+      ],
+      [
+        "enter",
+        0.055165634228035824
+      ],
+      [
+        "th",
+        0.054515179676909886
+      ],
+      [
+        "love",
+        0.053518898877945205
+      ],
+      [
+        "hath",
+        0.052695531202899895
+      ],
+      [
+        "speak",
+        0.051872163527854585
+      ],
+      [
+        "first",
+        0.05104879585280927
+      ],
+      [
+        "give",
+        0.04857869282767334
+      ]
+    ]
+  },
+  "sentiment": {
+    "overall_scores": {
+      "neg": 0.109,
+      "neu": 0.745,
+      "pos": 0.146,
+      "compound": 1.0
+    },
+    "summary": "Positive",
+    "by_act": [
+      {
+        "act_number": 1,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 2,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 3,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 4,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 5,
+        "scores": {
+          "neg": 0.028,
+          "neu": 0.943,
+          "pos": 0.029,
+          "compound": 0.0431
+        }
+      },
+      {
+        "act_number": 6,
+        "scores": {
+          "neg": 0.112,
+          "neu": 0.745,
+          "pos": 0.143,
+          "compound": 0.9998
+        }
+      },
+      {
+        "act_number": 7,
+        "scores": {
+          "neg": 0.098,
+          "neu": 0.74,
+          "pos": 0.162,
+          "compound": 0.9999
+        }
+      },
+      {
+        "act_number": 8,
+        "scores": {
+          "neg": 0.118,
+          "neu": 0.714,
+          "pos": 0.168,
+          "compound": 0.9999
+        }
+      },
+      {
+        "act_number": 9,
+        "scores": {
+          "neg": 0.108,
+          "neu": 0.758,
+          "pos": 0.133,
+          "compound": 0.9995
+        }
+      },
+      {
+        "act_number": 10,
+        "scores": {
+          "neg": 0.104,
+          "neu": 0.778,
+          "pos": 0.119,
+          "compound": 0.9988
+        }
+      }
+    ],
+    "sentence_sentiments": [
+      {
+        "sentence": "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK\n\nby William Shakespeare\n\n\n\n\nContents\n\n ACT I\n Scene I. Elsi",
+        "scores": {
+          "neg": 0.255,
+          "neu": 0.745,
+          "pos": 0.0,
+          "compound": -0.7297
+        }
+      },
+      {
+        "sentence": "A platform before the Castle\n Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Elsinore.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room of state in the Castle\n Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in Polonius\u2019s house\n Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The platform\n Scene V. A more remote part of the Castle\n\n ACT II\n Scene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in Polonius\u2019s house\n Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in the Castle\n\n ACT III\n Scene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in the Castle\n Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A hall in the Castle\n Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in the Castle\n Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in the Castle\n\n ACT IV\n Scene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in the Castle\n Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in the Castle\n Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in the Castle\n Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A plain in Denmark\n Scene V. Elsinore.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in the Castle\n Scene VI.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in the Castle\n Scene VII.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in the Castle\n\n ACT V\n Scene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A churchyard\n Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A hall in the Castle\n\n\n\n\nDramatis Person\u00e6\n\nHAMLET, Prince of Denmark\nCLAUDIUS, King of Denmark, Haml",
+        "scores": {
+          "neg": 0.033,
+          "neu": 0.932,
+          "pos": 0.035,
+          "compound": 0.0431
+        }
+      },
+      {
+        "sentence": "Lords, Ladies, Officers, Soldiers, Sailors, Messengers, and Attendants\n\nSCENE.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Elsinore.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT I\n\nSCENE I. Elsinore.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A platform before the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Enter Francisco and Barnardo, two sentinels.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Who\u2019s there?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Nay, answer me.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Stand and unfold yourself.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Long live the King!",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Barnardo?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "You come most carefully upon your hour.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.77,
+          "pos": 0.23,
+          "compound": 0.2006
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "\u2019Tis now struck twelve.",
+        "scores": {
+          "neg": 0.4,
+          "neu": 0.6,
+          "pos": 0.0,
+          "compound": -0.25
+        }
+      },
+      {
+        "sentence": "Get thee to bed, Francisco.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "For this relief much thanks.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.333,
+          "pos": 0.667,
+          "compound": 0.7184
+        }
+      },
+      {
+        "sentence": "\u2019Tis bitter cold,\nAnd I am sick at heart.",
+        "scores": {
+          "neg": 0.374,
+          "neu": 0.368,
+          "pos": 0.258,
+          "compound": -0.2263
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Have you had quiet guard?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Not a mouse stirring.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Well, good night.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.167,
+          "pos": 0.833,
+          "compound": 0.6124
+        }
+      },
+      {
+        "sentence": "If you do meet Horatio and Marcellus,\nThe rivals of my watch, bid them make haste.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Enter Horatio and Marcellus.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I think I hear them.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Stand, ho!",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Who is there?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HORATIO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Friends to this ground.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.492,
+          "pos": 0.508,
+          "compound": 0.4767
+        }
+      },
+      {
+        "sentence": "MARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "And liegemen to the Dane.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Give you good night.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.508,
+          "pos": 0.492,
+          "compound": 0.4404
+        }
+      },
+      {
+        "sentence": "MARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "O, farewell, honest soldier, who hath reliev\u2019d you?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.68,
+          "pos": 0.32,
+          "compound": 0.5106
+        }
+      },
+      {
+        "sentence": "FRANCISCO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Barnardo has my place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Give you good-night.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "[_Exit._]\n\nMARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Holla, Barnardo!",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Say, what, is Horatio there?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HORATIO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A piece of him.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Welcome, Horatio.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.25,
+          "pos": 0.75,
+          "compound": 0.4588
+        }
+      },
+      {
+        "sentence": "Welcome, good Marcellus.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.145,
+          "pos": 0.855,
+          "compound": 0.7096
+        }
+      },
+      {
+        "sentence": "MARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "What, has this thing appear\u2019d again tonight?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I have seen nothing.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Horatio says \u2019tis but our fantasy,\nAnd will not let belief take hold of him\nTouching this dreaded si",
+        "scores": {
+          "neg": 0.216,
+          "neu": 0.784,
+          "pos": 0.0,
+          "compound": -0.7942
+        }
+      },
+      {
+        "sentence": "Therefore I have entreated him along\nWith us to watch the minutes of this night,\nThat if again this ",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HORATIO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Tush, tush, \u2019twill not appear.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Sit down awhile,\nAnd let us once again assail your ears,\nThat are so fortified against our story,\nWh",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HORATIO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Well, sit we down,\nAnd let us hear Barnardo speak of this.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.84,
+          "pos": 0.16,
+          "compound": 0.2732
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Last night of all,\nWhen yond same star that\u2019s westward from the pole,\nHad made his course t\u2019illume t",
+        "scores": {
+          "neg": 0.076,
+          "neu": 0.84,
+          "pos": 0.084,
+          "compound": 0.0772
+        }
+      },
+      {
+        "sentence": "Peace, break thee off.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.462,
+          "pos": 0.538,
+          "compound": 0.5423
+        }
+      },
+      {
+        "sentence": "Look where it comes again.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Enter Ghost.",
+        "scores": {
+          "neg": 0.697,
+          "neu": 0.303,
+          "pos": 0.0,
+          "compound": -0.3182
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "In the same figure, like the King that\u2019s dead.",
+        "scores": {
+          "neg": 0.312,
+          "neu": 0.507,
+          "pos": 0.181,
+          "compound": -0.4215
+        }
+      },
+      {
+        "sentence": "MARCELLUS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Thou art a scholar; speak to it, Horatio.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BARNARDO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      }
+    ]
+  },
+  "style": {
+    "lexical_diversity": 0.1381006900392982,
+    "vocabulary_richness": {
+      "total_words": 32317,
+      "unique_words": 4463,
+      "hapax_legomena": 2590,
+      "hapax_percentage": 58.03271342146539
+    },
+    "readability_scores": {
+      "flesch_reading_ease": 83.56,
+      "flesch_kincaid_grade": 4.9,
+      "gunning_fog": 6.12,
+      "smog_index": 7.5,
+      "automated_readability_index": 6.4,
+      "coleman_liau_index": 6.31,
+      "dale_chall_readability": 6.04
+    },
+    "average_word_length": 4.055945787047065,
+    "sentence_statistics": {
+      "avg_sentence_length_words": 8.845834486576253,
+      "avg_sentence_length_chars": 47.88735123166344
+    }
+  },
+  "wordcloud": {
+    "filename": "hamlet_wordcloud.png",
+    "path": "output/wordclouds/hamlet_wordcloud.png"
+  }
+}

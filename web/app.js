@@ -20,7 +20,7 @@ async function loadAllPlays() {
 
     for (const playId of playIds) {
         try {
-            const response = await fetch(`../output/data/${playId}.json`);
+            const response = await fetch(`output/data/${playId}.json`);
             if (response.ok) {
                 state.plays[playId] = await response.json();
             } else {
@@ -205,7 +205,7 @@ function renderDistinctiveWords(distinctiveWords) {
 
 // Update wordcloud tab
 function updateWordcloudTab(play) {
-    const imgPath = `../${play.wordcloud.path}`;
+    const imgPath = `${play.wordcloud.path}`;
     document.getElementById('wordcloud-image').src = imgPath;
     document.getElementById('wordcloud-image').alt = `${play.metadata.title} Word Cloud`;
 
@@ -498,7 +498,7 @@ function renderWordcloudsComparison(playIds) {
         item.className = 'wordcloud-grid-item';
         item.innerHTML = `
             <h4>${play.metadata.title}</h4>
-            <img src="../${play.wordcloud.path}" alt="${play.metadata.title} Word Cloud">
+            <img src="${play.wordcloud.path}" alt="${play.metadata.title} Word Cloud">
         `;
         container.appendChild(item);
     });

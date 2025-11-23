@@ -1,0 +1,1385 @@
+{
+  "metadata": {
+    "id": "macbeth",
+    "title": "Macbeth",
+    "genre": "Tragedy",
+    "source_file": "pg1533.txt"
+  },
+  "statistics": {
+    "total_words": 18681,
+    "words_without_stopwords": 9779,
+    "unique_words": 3152,
+    "sentences": 2113
+  },
+  "bag_of_words": {
+    "top_words": [
+      [
+        "macbeth",
+        287
+      ],
+      [
+        "macduff",
+        111
+      ],
+      [
+        "lady",
+        97
+      ],
+      [
+        "thou",
+        93
+      ],
+      [
+        "banquo",
+        72
+      ],
+      [
+        "enter",
+        72
+      ],
+      [
+        "shall",
+        67
+      ],
+      [
+        "upon",
+        63
+      ],
+      [
+        "thee",
+        60
+      ],
+      [
+        "malcolm",
+        59
+      ],
+      [
+        "scene",
+        57
+      ],
+      [
+        "yet",
+        56
+      ],
+      [
+        "us",
+        55
+      ],
+      [
+        "ross",
+        54
+      ],
+      [
+        "witch",
+        53
+      ],
+      [
+        "come",
+        53
+      ],
+      [
+        "good",
+        52
+      ],
+      [
+        "thy",
+        52
+      ],
+      [
+        "hath",
+        51
+      ],
+      [
+        "first",
+        50
+      ],
+      [
+        "th",
+        50
+      ],
+      [
+        "would",
+        47
+      ],
+      [
+        "time",
+        46
+      ],
+      [
+        "like",
+        40
+      ],
+      [
+        "say",
+        40
+      ],
+      [
+        "let",
+        40
+      ],
+      [
+        "king",
+        39
+      ],
+      [
+        "man",
+        39
+      ],
+      [
+        "lord",
+        39
+      ],
+      [
+        "make",
+        39
+      ],
+      [
+        "duncan",
+        38
+      ],
+      [
+        "done",
+        38
+      ],
+      [
+        "tis",
+        37
+      ],
+      [
+        "fear",
+        36
+      ],
+      [
+        "must",
+        35
+      ],
+      [
+        "know",
+        35
+      ],
+      [
+        "lennox",
+        34
+      ],
+      [
+        "well",
+        34
+      ],
+      [
+        "murderer",
+        34
+      ],
+      [
+        "speak",
+        32
+      ],
+      [
+        "great",
+        31
+      ],
+      [
+        "see",
+        31
+      ],
+      [
+        "may",
+        31
+      ],
+      [
+        "son",
+        30
+      ],
+      [
+        "doctor",
+        29
+      ],
+      [
+        "sir",
+        29
+      ],
+      [
+        "siward",
+        28
+      ],
+      [
+        "one",
+        28
+      ],
+      [
+        "castle",
+        27
+      ],
+      [
+        "look",
+        27
+      ]
+    ],
+    "vocabulary_stats": {
+      "total_words": 9779,
+      "unique_words": 3027,
+      "hapax_legomena": 1828,
+      "type_token_ratio": 0.3095408528479395
+    },
+    "distinctive_words": [
+      [
+        "macbeth",
+        0.8367950573829411
+      ],
+      [
+        "macduff",
+        0.32363850651395987
+      ],
+      [
+        "lady",
+        0.13476488103555379
+      ],
+      [
+        "thou",
+        0.12920756635367528
+      ],
+      [
+        "enter",
+        0.10003166427381312
+      ],
+      [
+        "shall",
+        0.09308502092146499
+      ],
+      [
+        "upon",
+        0.08752770623958649
+      ],
+      [
+        "thee",
+        0.0833597202281776
+      ],
+      [
+        "th",
+        0.08213166182840621
+      ],
+      [
+        "scene",
+        0.07919173421676871
+      ],
+      [
+        "yet",
+        0.0778024055462991
+      ],
+      [
+        "us",
+        0.07641307687582946
+      ],
+      [
+        "come",
+        0.07363441953489021
+      ],
+      [
+        "good",
+        0.07224509086442059
+      ],
+      [
+        "thy",
+        0.07224509086442059
+      ],
+      [
+        "hath",
+        0.07085576219395096
+      ],
+      [
+        "first",
+        0.06946643352348134
+      ],
+      [
+        "would",
+        0.06529844751207245
+      ],
+      [
+        "time",
+        0.06390911884160283
+      ],
+      [
+        "let",
+        0.055573146818785064
+      ],
+      [
+        "like",
+        0.055573146818785064
+      ],
+      [
+        "say",
+        0.055573146818785064
+      ],
+      [
+        "king",
+        0.05418381814831544
+      ],
+      [
+        "lord",
+        0.05418381814831544
+      ],
+      [
+        "make",
+        0.05418381814831544
+      ],
+      [
+        "man",
+        0.05418381814831544
+      ],
+      [
+        "tis",
+        0.051405160807376185
+      ],
+      [
+        "fear",
+        0.05001583213690656
+      ],
+      [
+        "know",
+        0.04862650346643693
+      ],
+      [
+        "must",
+        0.04862650346643693
+      ]
+    ]
+  },
+  "sentiment": {
+    "overall_scores": {
+      "neg": 0.137,
+      "neu": 0.718,
+      "pos": 0.145,
+      "compound": 0.9995
+    },
+    "summary": "Positive",
+    "by_act": [
+      {
+        "act_number": 1,
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.978,
+          "pos": 0.022,
+          "compound": 0.0258
+        }
+      },
+      {
+        "act_number": 2,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 3,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 4,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 5,
+        "scores": {
+          "neg": 0.031,
+          "neu": 0.958,
+          "pos": 0.011,
+          "compound": -0.6369
+        }
+      },
+      {
+        "act_number": 6,
+        "scores": {
+          "neg": 0.121,
+          "neu": 0.721,
+          "pos": 0.158,
+          "compound": 0.9997
+        }
+      },
+      {
+        "act_number": 7,
+        "scores": {
+          "neg": 0.147,
+          "neu": 0.731,
+          "pos": 0.122,
+          "compound": -0.9986
+        }
+      },
+      {
+        "act_number": 8,
+        "scores": {
+          "neg": 0.066,
+          "neu": 0.782,
+          "pos": 0.152,
+          "compound": 0.9949
+        }
+      },
+      {
+        "act_number": 9,
+        "scores": {
+          "neg": 0.165,
+          "neu": 0.689,
+          "pos": 0.146,
+          "compound": -0.9991
+        }
+      },
+      {
+        "act_number": 10,
+        "scores": {
+          "neg": 0.137,
+          "neu": 0.696,
+          "pos": 0.168,
+          "compound": 0.9995
+        }
+      },
+      {
+        "act_number": 11,
+        "scores": {
+          "neg": 0.125,
+          "neu": 0.754,
+          "pos": 0.121,
+          "compound": -0.9835
+        }
+      }
+    ],
+    "sentence_sentiments": [
+      {
+        "sentence": "MACBETH\n\nby William Shakespeare\n\n\n\n\nContents\n\nACT I\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An open Place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Camp near Forres.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A heath.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Forres.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. Inverness.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Macbeth\u2019s Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VI.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Before the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VII.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Lobby in the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.784,
+          "pos": 0.216,
+          "compound": 0.0258
+        }
+      },
+      {
+        "sentence": "ACT II\nScene I. Inverness.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Court within the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Without the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT III\nScene I. Forres.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another Room in the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Park or Lawn, with a gate leading to the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room of state in the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. The heath.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VI.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Forres.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in the Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT IV\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A dark Cave.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "In the middle, a Cauldron Boiling.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Fife.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Macduff\u2019s Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "England.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Before the King\u2019s Palace.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT V\nScene I. Dunsinane.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The Country near Dunsinane.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Dunsinane.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Country near Dunsinane: a Wood in view.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V. Dunsinane.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Within the castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VI.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Plain before the Castle.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VII.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another part of the Plain.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene VIII.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The same.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another part of the field.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Dramatis Person\u00e6\n\nDUNCAN, King of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MALCOLM, his Son.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "DONALBAIN, his Son.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MACBETH, General in the King\u2019s Army.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BANQUO, General in the King\u2019s Army.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MACDUFF, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LENNOX, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ROSS, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MENTEITH, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ANGUS, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CAITHNESS, Nobleman of Scotland.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FLEANCE, Son to Banquo.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SIWARD, Earl of Northumberland, General of the English Forces.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "YOUNG SIWARD, his Son.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "SEYTON, an Officer attending on Macbeth.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BOY, Son to Macduff.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An English Doctor.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Scottish Doctor.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Soldier.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Porter.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An Old Man.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LADY MACBETH.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LADY MACDUFF.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Gentlewoman attending on Lady Macbeth.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HECATE, and three Witches.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Lords, Gentlemen, Officers, Soldiers, Murderers, Attendants and\nMessengers.",
+        "scores": {
+          "neg": 0.381,
+          "neu": 0.619,
+          "pos": 0.0,
+          "compound": -0.6486
+        }
+      },
+      {
+        "sentence": "The Ghost of Banquo and several other Apparitions.",
+        "scores": {
+          "neg": 0.247,
+          "neu": 0.753,
+          "pos": 0.0,
+          "compound": -0.3182
+        }
+      },
+      {
+        "sentence": "SCENE: In the end of the Fourth Act, in England; through the rest of\nthe Play, in Scotland; and chie",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.902,
+          "pos": 0.098,
+          "compound": 0.34
+        }
+      },
+      {
+        "sentence": "ACT I\n\nSCENE I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "An open Place.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      }
+    ]
+  },
+  "style": {
+    "lexical_diversity": 0.16872758417643596,
+    "vocabulary_richness": {
+      "total_words": 18681,
+      "unique_words": 3152,
+      "hapax_legomena": 1831,
+      "hapax_percentage": 58.090101522842644
+    },
+    "readability_scores": {
+      "flesch_reading_ease": 83.66,
+      "flesch_kincaid_grade": 4.8,
+      "gunning_fog": 6.06,
+      "smog_index": 7.3,
+      "automated_readability_index": 6.9,
+      "coleman_liau_index": 6.83,
+      "dale_chall_readability": 6.25
+    },
+    "average_word_length": 4.099726995342862,
+    "sentence_statistics": {
+      "avg_sentence_length_words": 8.704685281590157,
+      "avg_sentence_length_chars": 48.000946521533365
+    }
+  },
+  "wordcloud": {
+    "filename": "macbeth_wordcloud.png",
+    "path": "output/wordclouds/macbeth_wordcloud.png"
+  }
+}
