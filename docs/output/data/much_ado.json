@@ -1,0 +1,1376 @@
+{
+  "metadata": {
+    "id": "much_ado",
+    "title": "Much Ado about Nothing",
+    "genre": "Comedy",
+    "source_file": "pg1519.txt"
+  },
+  "statistics": {
+    "total_words": 22930,
+    "words_without_stopwords": 11058,
+    "unique_words": 2865,
+    "sentences": 2674
+  },
+  "bag_of_words": {
+    "top_words": [
+      [
+        "benedick",
+        202
+      ],
+      [
+        "claudio",
+        200
+      ],
+      [
+        "leonato",
+        195
+      ],
+      [
+        "beatrice",
+        159
+      ],
+      [
+        "pedro",
+        156
+      ],
+      [
+        "hero",
+        121
+      ],
+      [
+        "man",
+        110
+      ],
+      [
+        "good",
+        93
+      ],
+      [
+        "love",
+        91
+      ],
+      [
+        "would",
+        88
+      ],
+      [
+        "thou",
+        86
+      ],
+      [
+        "shall",
+        82
+      ],
+      [
+        "come",
+        74
+      ],
+      [
+        "thee",
+        74
+      ],
+      [
+        "lord",
+        73
+      ],
+      [
+        "hath",
+        73
+      ],
+      [
+        "john",
+        70
+      ],
+      [
+        "well",
+        70
+      ],
+      [
+        "lady",
+        66
+      ],
+      [
+        "god",
+        66
+      ],
+      [
+        "let",
+        65
+      ],
+      [
+        "dogberry",
+        60
+      ],
+      [
+        "know",
+        59
+      ],
+      [
+        "prince",
+        55
+      ],
+      [
+        "go",
+        55
+      ],
+      [
+        "say",
+        55
+      ],
+      [
+        "may",
+        54
+      ],
+      [
+        "one",
+        53
+      ],
+      [
+        "thy",
+        52
+      ],
+      [
+        "borachio",
+        51
+      ],
+      [
+        "margaret",
+        50
+      ],
+      [
+        "like",
+        49
+      ],
+      [
+        "think",
+        48
+      ],
+      [
+        "signior",
+        42
+      ],
+      [
+        "brother",
+        41
+      ],
+      [
+        "hear",
+        41
+      ],
+      [
+        "tell",
+        39
+      ],
+      [
+        "never",
+        39
+      ],
+      [
+        "watch",
+        38
+      ],
+      [
+        "enter",
+        37
+      ],
+      [
+        "upon",
+        37
+      ],
+      [
+        "much",
+        36
+      ],
+      [
+        "scene",
+        36
+      ],
+      [
+        "sir",
+        36
+      ],
+      [
+        "make",
+        36
+      ],
+      [
+        "must",
+        35
+      ],
+      [
+        "cousin",
+        34
+      ],
+      [
+        "see",
+        34
+      ],
+      [
+        "yet",
+        34
+      ],
+      [
+        "antonio",
+        33
+      ]
+    ],
+    "vocabulary_stats": {
+      "total_words": 11058,
+      "unique_words": 2738,
+      "hapax_legomena": 1570,
+      "type_token_ratio": 0.24760354494483633
+    },
+    "distinctive_words": [
+      [
+        "benedick",
+        0.45300130245652726
+      ],
+      [
+        "leonato",
+        0.43730323751991496
+      ],
+      [
+        "claudio",
+        0.3618599985086966
+      ],
+      [
+        "beatrice",
+        0.3565703321316229
+      ],
+      [
+        "pedro",
+        0.34984259001593193
+      ],
+      [
+        "hero",
+        0.2189252990977614
+      ],
+      [
+        "man",
+        0.11754618940685574
+      ],
+      [
+        "good",
+        0.09937996013488712
+      ],
+      [
+        "love",
+        0.09724275669112611
+      ],
+      [
+        "would",
+        0.0940369515254846
+      ],
+      [
+        "thou",
+        0.09189974808172358
+      ],
+      [
+        "shall",
+        0.08762534119420155
+      ],
+      [
+        "come",
+        0.0790765274191575
+      ],
+      [
+        "thee",
+        0.0790765274191575
+      ],
+      [
+        "hath",
+        0.07800792569727699
+      ],
+      [
+        "lord",
+        0.07800792569727699
+      ],
+      [
+        "well",
+        0.07480212053163547
+      ],
+      [
+        "god",
+        0.07052771364411345
+      ],
+      [
+        "lady",
+        0.07052771364411345
+      ],
+      [
+        "prince",
+        0.06948869682735537
+      ],
+      [
+        "let",
+        0.06945911192223293
+      ],
+      [
+        "know",
+        0.06304750159094989
+      ],
+      [
+        "go",
+        0.05877309470342787
+      ],
+      [
+        "say",
+        0.05877309470342787
+      ],
+      [
+        "friar",
+        0.05789759976139145
+      ],
+      [
+        "may",
+        0.05770449298154736
+      ],
+      [
+        "one",
+        0.05663589125966686
+      ],
+      [
+        "thy",
+        0.05556728953778635
+      ],
+      [
+        "like",
+        0.05236148437214483
+      ],
+      [
+        "think",
+        0.05129288265026432
+      ]
+    ]
+  },
+  "sentiment": {
+    "overall_scores": {
+      "neg": 0.101,
+      "neu": 0.712,
+      "pos": 0.187,
+      "compound": 1.0
+    },
+    "summary": "Positive",
+    "by_act": [
+      {
+        "act_number": 1,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 2,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 3,
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "act_number": 4,
+        "scores": {
+          "neg": 0.216,
+          "neu": 0.784,
+          "pos": 0.0,
+          "compound": -0.5106
+        }
+      },
+      {
+        "act_number": 5,
+        "scores": {
+          "neg": 0.029,
+          "neu": 0.875,
+          "pos": 0.096,
+          "compound": 0.8415
+        }
+      },
+      {
+        "act_number": 6,
+        "scores": {
+          "neg": 0.079,
+          "neu": 0.725,
+          "pos": 0.196,
+          "compound": 1.0
+        }
+      },
+      {
+        "act_number": 7,
+        "scores": {
+          "neg": 0.093,
+          "neu": 0.71,
+          "pos": 0.198,
+          "compound": 1.0
+        }
+      },
+      {
+        "act_number": 8,
+        "scores": {
+          "neg": 0.086,
+          "neu": 0.726,
+          "pos": 0.188,
+          "compound": 1.0
+        }
+      },
+      {
+        "act_number": 9,
+        "scores": {
+          "neg": 0.122,
+          "neu": 0.702,
+          "pos": 0.176,
+          "compound": 0.9998
+        }
+      },
+      {
+        "act_number": 10,
+        "scores": {
+          "neg": 0.127,
+          "neu": 0.705,
+          "pos": 0.168,
+          "compound": 0.9998
+        }
+      }
+    ],
+    "sentence_sentiments": [
+      {
+        "sentence": "MUCH ADO ABOUT NOTHING\n\nby William Shakespeare\n\n\nContents\n\nACT I\n\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Before Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A room in Leonato\u2019s house.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in Leonato\u2019s house.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT II\n\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A hall in Leonato\u2019s house.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Another room in Leonato\u2019s house.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Leonato\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT III\n\nScene I.\nLeonato\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Street.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene V.\nAnother Room in Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT IV\n\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The Inside of a Church.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Prison.",
+        "scores": {
+          "neg": 0.767,
+          "neu": 0.233,
+          "pos": 0.0,
+          "compound": -0.5106
+        }
+      },
+      {
+        "sentence": "ACT V\n\nScene I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Before Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene II.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Leonato\u2019s Garden.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene III.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "The Inside of a Church.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Scene IV.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Room in Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Dramatis Person\u00e6\n\nDON PEDRO, Prince of Arragon.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "DON JOHN, his bastard Brother.",
+        "scores": {
+          "neg": 0.467,
+          "neu": 0.533,
+          "pos": 0.0,
+          "compound": -0.5423
+        }
+      },
+      {
+        "sentence": "CLAUDIO, a young Lord of Florence.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BENEDICK, a young Lord of Padua.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LEONATO, Governor of Messina.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ANTONIO, his Brother.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BALTHASAR, Servant to Don Pedro.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "BORACHIO, follower of Don John.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "CONRADE, follower of Don John.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "DOGBERRY, a Constable.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "VERGES, a Headborough.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "FRIAR FRANCIS.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Sexton.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A Boy.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HERO, Daughter to Leonato.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.409,
+          "pos": 0.591,
+          "compound": 0.6523
+        }
+      },
+      {
+        "sentence": "BEATRICE, Niece to Leonato.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MARGARET, Waiting gentlewoman attending on Hero.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.581,
+          "pos": 0.419,
+          "compound": 0.5574
+        }
+      },
+      {
+        "sentence": "URSULA, Waiting gentlewoman attending on Hero.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.581,
+          "pos": 0.419,
+          "compound": 0.5574
+        }
+      },
+      {
+        "sentence": "Messengers, Watch, Attendants, &c.\n\nSCENE.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Messina.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "ACT I\n\nSCENE I.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Before Leonato\u2019s House.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Enter Leonato, Hero, Beatrice and others,\nwith a Messenger.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.69,
+          "pos": 0.31,
+          "compound": 0.5574
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I learn in this letter that Don Pedro of Arragon comes this night\nto Messina.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He is very near by this: he was not three leagues off when I left him.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "How many gentlemen have you lost in this action?",
+        "scores": {
+          "neg": 0.223,
+          "neu": 0.777,
+          "pos": 0.0,
+          "compound": -0.3182
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "But few of any sort, and none of name.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A victory is twice itself when the achiever brings home full\nnumbers.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I find here that Don Pedro hath bestowed much honour on a\nyoung Florentine called Claudio.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.802,
+          "pos": 0.198,
+          "compound": 0.5719
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Much deserved on his part, and equally remembered by Don Pedro.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He hath borne himself beyond the promise of his age, doing in the figure\nof a lamb the feats of a li",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.874,
+          "pos": 0.126,
+          "compound": 0.6369
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He hath an uncle here in Messina will be very much glad of it.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.799,
+          "pos": 0.201,
+          "compound": 0.507
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I have already delivered him letters, and there appears much\njoy in him; even so much that joy could",
+        "scores": {
+          "neg": 0.074,
+          "neu": 0.711,
+          "pos": 0.215,
+          "compound": 0.7322
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Did he break out into tears?",
+        "scores": {
+          "neg": 0.275,
+          "neu": 0.725,
+          "pos": 0.0,
+          "compound": -0.2263
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "In great measure.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.328,
+          "pos": 0.672,
+          "compound": 0.6249
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "A kind overflow of kindness.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.319,
+          "pos": 0.681,
+          "compound": 0.7506
+        }
+      },
+      {
+        "sentence": "There are no faces truer than those\nthat are so washed; how much better is it to weep at joy than to",
+        "scores": {
+          "neg": 0.282,
+          "neu": 0.453,
+          "pos": 0.264,
+          "compound": 0.222
+        }
+      },
+      {
+        "sentence": "BEATRICE.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I pray you, is Signior Mountanto returned from the wars or no?",
+        "scores": {
+          "neg": 0.226,
+          "neu": 0.629,
+          "pos": 0.145,
+          "compound": -0.3182
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "I know none of that name, lady: there was none such in the army\nof any sort.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "What is he that you ask for, niece?",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "HERO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.0,
+          "pos": 1.0,
+          "compound": 0.5574
+        }
+      },
+      {
+        "sentence": "My cousin means Signior Benedick of Padua.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "O!",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "he is returned, and as pleasant as ever he was.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 0.732,
+          "pos": 0.268,
+          "compound": 0.5106
+        }
+      },
+      {
+        "sentence": "BEATRICE.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He set up his bills here in Messina and challenged Cupid at the\nflight; and my uncle\u2019s fool, reading",
+        "scores": {
+          "neg": 0.173,
+          "neu": 0.788,
+          "pos": 0.039,
+          "compound": -0.5267
+        }
+      },
+      {
+        "sentence": "I pray you, how many hath he\nkilled and eaten in these wars?",
+        "scores": {
+          "neg": 0.397,
+          "neu": 0.49,
+          "pos": 0.113,
+          "compound": -0.7783
+        }
+      },
+      {
+        "sentence": "But how many hath he killed?",
+        "scores": {
+          "neg": 0.556,
+          "neu": 0.444,
+          "pos": 0.0,
+          "compound": -0.8047
+        }
+      },
+      {
+        "sentence": "for, indeed,\nI promised to eat all of his killing.",
+        "scores": {
+          "neg": 0.295,
+          "neu": 0.537,
+          "pos": 0.168,
+          "compound": -0.4404
+        }
+      },
+      {
+        "sentence": "LEONATO.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "Faith, niece, you tax Signior Benedick too much; but he\u2019ll\nbe meet with you, I doubt it not.",
+        "scores": {
+          "neg": 0.154,
+          "neu": 0.757,
+          "pos": 0.09,
+          "compound": -0.3291
+        }
+      },
+      {
+        "sentence": "MESSENGER.",
+        "scores": {
+          "neg": 0.0,
+          "neu": 1.0,
+          "pos": 0.0,
+          "compound": 0.0
+        }
+      },
+      {
+        "sentence": "He hath done good service, lady, in these wars.",
+        "scores": {
+          "neg": 0.267,
+          "neu": 0.519,
+          "pos": 0.215,
+          "compound": -0.1779
+        }
+      }
+    ]
+  },
+  "style": {
+    "lexical_diversity": 0.12494548626253817,
+    "vocabulary_richness": {
+      "total_words": 22930,
+      "unique_words": 2865,
+      "hapax_legomena": 1576,
+      "hapax_percentage": 55.0087260034904
+    },
+    "readability_scores": {
+      "flesch_reading_ease": 90.29,
+      "flesch_kincaid_grade": 4.3,
+      "gunning_fog": 6.58,
+      "smog_index": 7.4,
+      "automated_readability_index": 6.5,
+      "coleman_liau_index": 5.85,
+      "dale_chall_readability": 5.72
+    },
+    "average_word_length": 4.0037505451373745,
+    "sentence_statistics": {
+      "avg_sentence_length_words": 8.473821989528796,
+      "avg_sentence_length_chars": 44.483171278982795
+    }
+  },
+  "wordcloud": {
+    "filename": "much_ado_wordcloud.png",
+    "path": "output/wordclouds/much_ado_wordcloud.png"
+  }
+}
